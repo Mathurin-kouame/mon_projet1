@@ -1,11 +1,18 @@
 body{
-    background: #e9e6e0;
+    background: #fff;
     font-family: Georgia, 'Times New Roman', Times, serif Times, serif;
     font-size: 14px;
     /*color: rgba(0, 0, 0, 0.6);*/
     margin: O;
     padding: 0;
     line-height: 1.3;  
+}
+nav{
+  position: relative;
+  display: flex;
+  align-items: center;
+  
+  
 }
 
 .container{
@@ -21,13 +28,62 @@ body{
         
      }
 
+     .user{
+        width: 20px;
+        float: right;
+     }
+
      .header{
-        background: url(/img/img2.png);
-        height: 600px; 
-        left: 0;
-        right: 0;
-       
+        background-color: #F8AB16;
+        object-fit: cover;
+        height: 500px;
+        clip-path: polygon(50% 0, 100% 0, 100% 35%, 100% 83%, 85% 75%, 55% 72%, 13% 76%, 0 83%, 0% 35%, 0 0);
     }
+
+    .bx-menu{
+        width: 70px;
+       margin-left: 10px;
+   }
+
+    .textAutoGr{
+        padding-top: 100px;
+        padding-left: 50px;
+       
+        
+    }
+
+    .circle{
+        float: right;
+        padding-top: 30px;
+        
+    }
+    /*Les images pour la section1*/
+
+    .imgP1 {
+        float: left;
+        width: auto;
+
+    }
+
+    .imgP2{
+        float: left;
+        padding-left: 10px;
+        width: 300px;
+    }
+        
+
+
+    /*.maImge{
+        height: 10px;
+        width: 100px;
+        object-fit: cover;
+        object-position: center;
+        top: 0;
+    }*/
+
+    /*.header img{
+        justify-content: center;
+    }*/
 
     ul li  a { 
         text-decoration: none;
@@ -73,7 +129,7 @@ body{
     .logo{
         font-weight: 700;
         font-size: 2rem;
-        padding: 1rem 10rem;
+        padding: 1rem 2rem;
         
     }
 
@@ -96,6 +152,13 @@ body{
         align-items: center;
         justify-content: center;
         font-size: 40px;
+    }
+
+    .txtWith{
+        font-family: 'Kaushan Script', cursive;
+        font-size: 67px;
+        top: 15px;
+        color: #fbfaf9;
     }
 
     /*.footer{

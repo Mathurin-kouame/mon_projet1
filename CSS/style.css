@@ -277,8 +277,20 @@ body{
 
     .elementsTxt>h4{
         margin-left: 50px;
-        color: #F8AB16;
-        font-size: 40px;
+       
+    }
+
+    .volueImportance h4{
+        color: #0a0a09;
+        border-width: 30px;
+        margin: 0 auto;
+        padding: 15px;
+        padding-left: 18px;
+        padding-right: 18px;
+        border-radius: 100px 100px 100px 100px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+        text-shadow: 3px 3px #F8AB16;
+        background-color: #fbfaf9;
     }
        
 

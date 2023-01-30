@@ -15,9 +15,8 @@ body{
 }*/
 
 .icon_right {
-   margin-top: -20px;
-   margin-right: 50px;
-   margin-bottom: -20px; 
+    margin-right: 54px;
+    margin-bottom: -8px;
   
  }
 
@@ -58,19 +57,7 @@ body{
     }
 
     
-    /*Les images pour la section1*/
-
-    /*.imgP1 {
-        float: left;
-        width: auto;
-
-    }
-
-    .imgP2{
-        float: left;
-        padding-left: 10px;
-        width: 300px;
-    }*/
+    
 
     ul li  a { 
         text-decoration: none;
@@ -131,7 +118,7 @@ body{
         
     }
 
-    span{
+    .logAuto{
         color: #0a0a09;
         border-width: 30px;
         margin: 0 auto;
@@ -208,6 +195,7 @@ body{
     .imgP2 img{
         height:280;
         width: 437px;
+       
     }
 
     .textSante{
@@ -240,6 +228,7 @@ body{
     .sectionNember1 img{   
         width: 12.40%;
         margin-top: -150px;
+        margin-left: 51px;
         
        
     }
@@ -266,31 +255,121 @@ body{
 
     .mySatisf{
         text-align: center;
+        font-size: 40px;
+
+        
+    }
+    strong{
+        font-weight: bold;
     }
 
      .elementsTxt{
-        text-align: center;
-        align-items: center;
+        /*align-items: center;*/
         display: flex;
-        padding-left: 50px;
+        margin-left: 65px;
+        justify-content: space-between;
+        gap: 5px;
     }
 
     .elementsTxt>h4{
         margin-left: 50px;
+        margin-top: 91px;
+        text-decoration-style: none;
+        display: flex;
+        flex-direction: column;
        
     }
 
-    .volueImportance h4{
-        color: #0a0a09;
-        border-width: 30px;
-        margin: 0 auto;
-        padding: 15px;
-        padding-left: 18px;
-        padding-right: 18px;
-        border-radius: 100px 100px 100px 100px;
-        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-        text-shadow: 3px 3px #F8AB16;
-        background-color: #fbfaf9;
+    span.volueImportance {
+        color: #F8AB16;
+       
+    }
+    /*.elementsTxt .volueImportance{
+        padding-top: -60px;
+
+    }*/
+
+    
+
+    /*.infos{
+        background: #c1c1bf;
+        height: 402px;
+        width: 1270px;
+       
+    }*/
+   /* .number3 h3{
+        text-align: center;
+        margin-top: 90px;
+    }*/
+
+    .monTextInfo{
+        gap: 20px;
+    }
+
+    .title{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        width: 10px;
+    }
+
+    #mecanoImg1{
+        margin-left: -320px;
+    }
+
+  
+
+    /*.carpImg img{
+        width: 300px;
+        margin-top: -380px;
+        margin-left: 578px;
+       Inter
+       
+    }*/
+
+    #mecanoImg2{
+       margin-left: 130px;
+    }
+    .infos{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        
+        width: 500px;
+        
+    }
+
+    .textegras{
+        font-family: Inter;
+        font-size: 20px;
+        margin-top: -50px;
+    }
+
+    .textActu{
+        margin-top: -50px;
+        font-size: 20px;
+    }
+
+    .number3{
+        margin-top: 100px;
+
+    }
+
+    
+
+   
+    
+
+    /*.textSecurite{
+        margin-left: 629px;
+        margin-top: -34px;
+    }*/
+
+    footer{
+        background: #201f1f;
+        height:  358px;
+        width: 1267px
+
     }
        
 

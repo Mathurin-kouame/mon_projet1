@@ -314,56 +314,63 @@ body{
     }
 
     #mecanoImg1{
-        margin-left: -320px;
+        margin-left: -442px;
+        height: 223px;
+        margin-top: 56px;
+        
     }
-
-  
-
-    /*.carpImg img{
-        width: 300px;
-        margin-top: -380px;
-        margin-left: 578px;
-       Inter
-       
-    }*/
 
     #mecanoImg2{
        margin-left: 130px;
+       height: 400px;
+       margin-top: 56px;
+       
+
+       
     }
     .infos{
         display: flex;
         margin-left: auto;
-        margin-right: auto;
-        
+        margin-right: auto;  
         width: 500px;
         
-    }
+        
+    } 
 
     .textegras{
         font-family: Inter;
-        font-size: 20px;
-        margin-top: -50px;
+        font-size: 35px;
+        margin-top: 14px;
     }
 
     .textActu{
-        margin-top: -50px;
-        font-size: 20px;
+        margin-top: 21px;
+        font-size: 27px;
+        padding-left: 14px;
+
+    }
+    .textAsure{
+        margin-top: 35px;
+        font-size: 30px;
+        color: #F8AB16;
+
+    }
+    .textSecurite{
+        font-size: 28px;
+        color: #F8AB16;
+        margin-top: 10px;
+        padding-left: 3px;
+
     }
 
     .number3{
         margin-top: 100px;
+        background: #d5d1d1;
+        height: 402px;
+        width: 1270px;
+
 
     }
-
-    
-
-   
-    
-
-    /*.textSecurite{
-        margin-left: 629px;
-        margin-top: -34px;
-    }*/
 
     footer{
         background: #201f1f;
@@ -371,15 +378,3 @@ body{
         width: 1267px
 
     }
-       
-
-
-
-
-    
-    /*.footer{
-        background-color: #0e0d0d;
-        width: 100em;
-        height: 30em;
-    }*/
-    

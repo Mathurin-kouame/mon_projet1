@@ -7,31 +7,48 @@ body{
     z-index:0;
     
 }
-/*nav{
-  position: relative;
-  display: flex;
-  padding: 2px;
-  margin-right: 5px;
-}*/
+
+.bx-menu{
+    width: 50px;
+    display: flex;
+    
+    
+    
+   
+}
+.xMenu{
+    font-size: 15px;
+    margin-left: 27px;
+    margin-top: 12px;
+}
+
+i{
+  font-size: 40px;  
+}
+
 
 .icon_right {
     margin-right: 54px;
     margin-bottom: -8px;
   
  }
+ .navigation {
+    width: 1100px;
+    margin-right: 10px;
+ }
 
 
 .container{
     max-width: 100%;
     margin: 0 auto;
-    margin-right: 2px;
+    margin-left: 40px;
+    margin-right: 42px;
     text-align: right;
-    top: 8px;
-    left: -4px;
+    top: 18px;
     background: #fbfaf9; 
-    border-radius : 20px 20px; 
-    height: 80px;
-    position:sticky;
+    border-radius : 10px 10px; 
+    height: 60px;
+    position:fixed;
     z-index: 2;
     
      }
@@ -43,12 +60,7 @@ body{
        /* clip-path: polygon(50% 0, 100% 0, 100% 35%, 100% 83%, 85% 75%, 55% 72%, 13% 76%, 0 83%, 0% 35%, 0 0);*/
     }
 
-    .bx-menu{
-        width: 70px;
-       margin-left: 0px;
-       padding-left: 10px
-   }
-
+    
     .textAutoGr{
         padding-top: 100px;
         padding-left: 50px;
@@ -111,7 +123,7 @@ body{
 
 
     .logo{
-        font-weight: 700;
+        font-weight: 400px;
         font-size: 2rem;
         padding: 1rem 2rem;
         margin-right: -55px;
@@ -120,24 +132,30 @@ body{
 
     .logAuto{
         color: #0a0a09;
-        border-width: 30px;
+        border-width: 20px;
+        margin-top: 70px;
+        margin-left: 22px;
         margin: 0 auto;
         padding: 15px;
         padding-left: 18px;
         padding-right: 18px;
-        border-radius: 100px 100px 100px 100px;
+        border-radius: 90px;
         box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
         text-shadow: 3px 3px #F8AB16;
         background-color: #fbfaf9;
+        font-family: 'Inter', sans-serif;
+        align-items: center;
+        justify-content: center;
+        font-size: 35px;
        
     }
 
-    .logAuto{
+    /*.logAuto{
         font-family: 'Inter', sans-serif;
         align-items: center;
         justify-content: center;
         font-size: 40px;
-    }
+    }*/
 
     .txtWith{
         font-family: 'Kaushan Script', cursive;
@@ -316,14 +334,14 @@ body{
     #mecanoImg1{
         margin-left: -442px;
         height: 223px;
-        margin-top: 56px;
+        margin-top: 21px;
         
     }
 
     #mecanoImg2{
        margin-left: 130px;
        height: 400px;
-       margin-top: 56px;
+       margin-top: 21px;
        
 
        
@@ -350,7 +368,7 @@ body{
 
     }
     .textAsure{
-        margin-top: 35px;
+        margin-top: 8px;
         font-size: 30px;
         color: #F8AB16;
 
@@ -361,15 +379,18 @@ body{
         margin-top: 10px;
         padding-left: 3px;
 
+
     }
 
     .number3{
         margin-top: 100px;
         background: #d5d1d1;
-        height: 402px;
+        height: 439px;
         width: 1270px;
+    }
 
-
+    .paragraphe{
+        text-align: center;
     }
 
     footer{
@@ -378,3 +399,44 @@ body{
         width: 1267px
 
     }
+    .logfooter{
+        color: #0a0a09;
+        border-width: 30px;
+        margin: 0 auto;
+        padding: 15px;
+        padding-left: 18px;
+        padding-right: 18px;
+        border-radius: 100px 100px 100px 100px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+        text-shadow: 3px 3px #F8AB16;
+        background-color: #fbfaf9;
+    }
+
+
+
+    .reSociaux{
+        color: #fbfaf9;
+        width: 200px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        
+    }
+    
+
+    .footerAuto{
+        color: #fff;
+        margin-left: 20px;
+    }
+    .textFooter{
+        color: #fbfaf9;
+
+    }
+    .footerPara{
+        color: #fbfaf9;
+    }
+
+    .footerPara{
+        padding: 10px;
+    }
+    
